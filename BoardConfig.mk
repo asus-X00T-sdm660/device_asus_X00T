@@ -7,7 +7,7 @@
 # Inherit from sdm660-common
 include device/asus/sdm660-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/asus/X00TD
+DEVICE_PATH := device/asus/X00T
 
 # Assert
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
@@ -23,4 +23,4 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 TARGET_KERNEL_CONFIG := vendor/X00TD_defconfig vendor/debugfs.config
 
 # Inherit the proprietary files
-include vendor/asus/X00TD/BoardConfigVendor.mk
+include vendor/asus/X00T/BoardConfigVendor.mk

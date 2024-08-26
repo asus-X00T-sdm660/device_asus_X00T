@@ -41,7 +41,7 @@ fi
 
 set -e
 
-export DEVICE=X00TD
+export DEVICE=X00T
 export DEVICE_COMMON=sdm660-common
 export VENDOR=asus
 
